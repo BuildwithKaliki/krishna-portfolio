@@ -12,7 +12,7 @@ export default function Hero() {
             </h1>
             <p className="mt-2 text-term-blue">Sr DevOps Engineer</p>
             <p className="mt-1 text-term-dim">
-              AWS - Kubernetes - Terraform - GitOps — Multi-Region Cloud Platform Engineering
+              AWS • Kubernetes • Terraform • GitOps — Multi-Region Cloud Platform Engineering
             </p>
           </div>
         </div>
@@ -35,22 +35,22 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="mt-6 flex flex-wrap gap-3 text-sm">
+        <div className="mt-8 flex flex-wrap gap-4">
           <a
-            href="https://www.linkedin.com/"
+            href="https://github.com/buildwithkaliki"
+            className="px-4 py-2 rounded border border-term-green text-term-green hover:bg-term-green hover:text-term-bg transition-colors"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub →
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sai-krishna-reddy2137"
             className="px-4 py-2 rounded border border-term-blue text-term-blue hover:bg-term-blue hover:text-term-bg transition-colors"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn →
-          </a>
-          <a
-            href="https://github.com/buildwithkaliki"
-            className="px-4 py-2 rounded border border-term-border text-gray-300 hover:border-term-green hover:text-term-green transition-colors"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub →
           </a>
         </div>
       </div>
