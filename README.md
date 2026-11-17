@@ -1,25 +1,26 @@
-# krishna-portfolio
+# Krishna Kaliki — Portfolio
 
-**Personal portfolio — Krishna Kaliki, Sr DevOps Engineer.**
+Personal portfolio website. React 18 + Vite 6 + Tailwind 3, dark terminal theme.
 
-React 18 + Vite 6 + Tailwind 3, dark terminal/engineering theme.
-
-## Sections
-
-- Hero + About (whoami, terminal-style)
-- Impact metrics — 60+ AWS accounts, 5 regions, ~100 TF stacks, 10+ cluster families, $140k+/yr savings identified
-- 6 project highlights (anonymized enterprise work)
-- Platform architecture map — 6 layers
-- Skills matrix with proficiency bars
-- Experience + "how we support other teams"
-- Interview prep — 8 Q&A cards
-
-## Run it
+## Restore on another machine
 
 ```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # dist/
+unzip krishna-portfolio.zip
+cd krishna-portfolio
+npm install     # restores dependencies from package.json
+npm run dev     # local preview -> http://localhost:5173
+npm run build   # production build -> dist/
 ```
 
-> Full source is in this repo (src/, configs). Deploy target: GitHub Pages or Netlify — build outputs to `dist/`.
+Requires Node 18+ (built/tested on Node 24).
+
+## Before publishing
+
+1. Replace placeholder LinkedIn/GitHub links in `src/components/Hero.jsx`
+2. Re-read `src/components/Projects.jsx` for NDA-adjacent detail
+3. Push to a personal GitHub repo and enable GitHub Pages, or drop the `dist/` folder on Netlify/Vercel
+
+## Contents
+
+- `Personal.md` — master reference: career facts, LinkedIn copy, interview prep Q&A bank
+- `src/components/` — all site sections (Hero, Metrics, About, Projects, Architecture, Skills, Experience, Interview, Footer)
